@@ -1,0 +1,913 @@
+; FBX 7.4.0 project file
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7400
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2018
+		Month: 8
+		Day: 16
+		Hour: 11
+		Minute: 48
+		Second: 47
+		Millisecond: 281
+	}
+	Creator: "FBX SDK/FBX Plugins version 2018.1"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "G:\000\机房\jifang\shuinidimian.FBX"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\000\机房\jifang\shuinidimian.FBX"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
+			P: "Original|ApplicationVersion", "KString", "", "", "2018"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "16/08/2018 03:48:47.279"
+			P: "Original|FileName", "KString", "", "", "G:\000\机房\jifang\shuinidimian.FBX"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
+			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "2018"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "16/08/2018 03:48:47.279"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\My Documents\3dsMax"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\000\机房\AutoBackup02.max"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",2
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",100
+		P: "OriginalUnitScaleFactor", "double", "Number", "",100.00000066
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",6
+		P: "TimeProtocol", "enum", "", "",2
+		P: "SnapOnFrameMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",153953860000
+		P: "CustomFrameRate", "double", "Number", "",-1
+		P: "TimeMarker", "Compound", "", ""
+		P: "CurrentTimeMarker", "int", "Integer", "",-1
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 2176375026080, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 85
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 1
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 1
+		PropertyTemplate: "FbxSurfacePhong" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Phong"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 1
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Collection" {
+		Count: 1
+		PropertyTemplate: "FbxSelectionSet" {
+			Properties70:  {
+				P: "SelectionSetAnnotation", "KString", "", "", ""
+			}
+		}
+	}
+	ObjectType: "SelectionNode" {
+		Count: 1
+	}
+	ObjectType: "CollectionExclusive" {
+		Count: 75
+		PropertyTemplate: "FbxDisplayLayer" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Show", "bool", "", "",1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 1
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "RelPath", "KString", "XRefUrl", "", ""
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "ClipIn", "KTime", "Time", "",0
+				P: "ClipOut", "KTime", "Time", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "Mute", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "InterlaceMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 2175708656816, "Geometry::", "Mesh" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0,0
+		}
+		Vertices: *24 {
+			a: -10.0599880218506,11.439510345459,-0.0499999150633812,10.7501211166382,11.4397773742676,-0.0499999187886715,10.7501220703125,-12.2205677032471,-0.0500000417232513,-10.0599889755249,-12.2191524505615,-0.0500000528991222,-10.0599880218506,11.439510345459,0.0500000864267349,10.7501211166382,11.4397773742676,0.0500000827014446,10.7501220703125,-12.2205677032471,0.0499999597668648,-10.0599889755249,-12.2191524505615,0.0499999485909939
+		} 
+		PolygonVertexIndex: *24 {
+			a: 0,4,5,-2,1,5,6,-3,2,6,7,-4,4,0,3,-8,0,1,2,-4,6,5,4,-8
+		} 
+		Edges: *12 {
+			a: 0,1,2,3,5,6,7,9,10,11,13,15
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: *72 {
+				a: -1.28316878544865e-05,1,0,-1.28316878544865e-05,1,0,-1.28316878544865e-05,1,0,-1.28316878544865e-05,1,0,1,4.03068689536212e-08,0,1,4.03068689536212e-08,0,1,4.03068689536212e-08,0,1,4.03068689536212e-08,0,-6.80079247104004e-05,-1,0,-6.80079247104004e-05,-1,0,-0.707130789756775,-0.707082688808441,0,-0.707130789756775,-0.707082688808441,0,-1,4.03097217827053e-08,0,-1,4.03097217827053e-08,0,-0.707130789756775,-0.707082688808441,0,-0.707130789756775,-0.707082688808441,0,1.79165571267959e-10,5.51090062472781e-09,-1,1.79165571267959e-10,5.5109001806386e-09,-1,1.79165571267959e-10,5.51089973654939e-09,-1,1.79165571267959e-10,5.51089973654939e-09,-1,-1.79165571267959e-10,-5.51089973654939e-09,1,-1.79165571267959e-10,-5.5109001806386e-09,1,-1.79165571267959e-10,-5.51090062472781e-09,1,-1.79165571267959e-10,-5.51089973654939e-09,1
+			} 
+			NormalsW: *24 {
+				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVChannel_1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *48 {
+				a: -9.90505790710449,12.3301725387573,10.9050579071045,-11.3287515640259,10.9050579071045,12.3301725387573,-9.90505790710449,-11.3287515640259,10.9050512313843,0.450000077486038,10.9050512313843,0.550000071525574,-9.90505790710449,0.550000071525574,-9.90505790710449,0.450000047683716,12.3301725387573,0.450000047683716,12.3301725387573,0.550000071525574,-11.3301725387573,0.549999952316284,-11.3301725387573,0.449999928474426,10.9050531387329,0.449999928474426,10.9050531387329,0.549999952316284,-9.90505790710449,0.549999952316284,-9.90505790710449,0.449999928474426,-11.3299112319946,0.550000071525574,-11.3299112319946,0.450000077486038,12.3287515640259,0.449999928474426,12.3287515640259,0.549999952316284,10.9050512313843,12.3299112319946,-9.90505313873291,-11.3301725387573,10.9050531387329,-11.3301725387573,-9.90505123138428,12.3299112319946
+			} 
+			UVIndex: *24 {
+				a: 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,0,21,1,22,2,23,3
+			} 
+		}
+		LayerElementSmoothing: 0 {
+			Version: 102
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Smoothing: *6 {
+				a: 1,4,2,6,16,16
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementSmoothing"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 2176418140560, "Model::shuinidimian", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "GeometricTranslation", "Vector3D", "Vector", "",-0.274391174316406,-1.239348179638e-09,-0.284027099609375
+			P: "GeometricRotation", "Vector3D", "Vector", "",-90,-0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-11.5026950836182,-0.050539493560791,1.49877941608429
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
+			P: "mr displacement use global settings", "Bool", "", "AU",1
+			P: "mr displacement view dependent", "Bool", "", "AU",1
+			P: "mr displacement method", "Integer", "", "AU",6,6,6
+			P: "mr displacement smoothing on", "Bool", "", "AU",1
+			P: "mr displacement edge length", "Number", "", "AU",2,2,2
+			P: "mr displacement max displace", "Number", "", "AU",20,20,20
+			P: "mr displacement parametric subdivision level", "Integer", "", "AU",5,5,5
+			P: "MaxHandle", "int", "Integer", "UH",4458
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Material: 2176424728016, "Material::shuinidimian", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "DiffuseColor", "Color", "", "A",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",2
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Diffuse", "Vector3D", "Vector", "",0.587999999523163,0.587999999523163,0.587999999523163
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",2
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Video: 2176424742416, "Video::Map #10", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+			P: "RelPath", "KString", "XRefUrl", "", "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+		}
+		UseMipMap: 0
+		Filename: "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+		RelativeFilename: "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+	}
+	Texture: 2176424740496, "Texture::Map #10", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Map #10"
+		Properties70:  {
+			P: "UVSet", "KString", "", "", "UVChannel_1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::Map #10"
+		FileName: "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+		RelativeFilename: "D:\沿海国际\设备模型\MAX\Textures\shuinidimian.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	SelectionNode: 2176409742160, "SelectionNode::shuinidimian_SelectionNode", "" {
+		SelectionNode: 100
+		Node: "Model::shuinidimian"
+		IsTheNodeInSet: 1
+	}
+	Collection: 2175713643104, "SelectionSet::444", "SelectionSet" {
+		Version: 100
+		NbMembers: 1
+		Member: "SelectionNode::shuinidimian_SelectionNode"
+	}
+	AnimationStack: 2176409741952, "AnimStack::Take 001", "" {
+		Properties70:  {
+			P: "LocalStop", "KTime", "Time", "",153953860000
+			P: "ReferenceStop", "KTime", "Time", "",153953860000
+		}
+	}
+	AnimationLayer: 2177671116064, "AnimLayer::BaseLayer", "" {
+	}
+	CollectionExclusive: 2175698379904, "DisplayLayer::PUB_DIM", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698389696, "DisplayLayer::AA-图框内容", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,1
+		}
+	}
+	CollectionExclusive: 2175698383168, "DisplayLayer::ANNO-CNT-1000S", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698386240, "DisplayLayer::汽车坡道", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,1
+		}
+	}
+	CollectionExclusive: 2175698384704, "DisplayLayer::FLOR-PARK", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.498039215686275,0.435294117647059,0.247058823529412
+		}
+	}
+	CollectionExclusive: 2175698389888, "DisplayLayer::改动", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,0
+		}
+	}
+	CollectionExclusive: 2175698390272, "DisplayLayer::DIM_SYMB", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698390848, "DisplayLayer::风洞口-地上", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698391040, "DisplayLayer::洞口", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.498039215686275,1,0
+		}
+	}
+	CollectionExclusive: 2175698378944, "DisplayLayer::STAIR", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698383552, "DisplayLayer::COLUMN", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698380096, "DisplayLayer::PUB_HATCH", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698383744, "DisplayLayer::水道-001", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698381440, "DisplayLayer::DOTE", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,0
+		}
+	}
+	CollectionExclusive: 2175698381632, "DisplayLayer::AXIS", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698385088, "DisplayLayer::LVTRY", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,1
+		}
+	}
+	CollectionExclusive: 2175698392384, "DisplayLayer::WALL", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698401408, "DisplayLayer::DOOR_FIRE", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,1
+		}
+	}
+	CollectionExclusive: 2175698401600, "DisplayLayer::改动11-27", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.498039215686275,0.435294117647059,0.247058823529412
+		}
+	}
+	CollectionExclusive: 2175698391808, "DisplayLayer::ACS_PFG_FM", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698396992, "DisplayLayer::设备基础", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698398912, "DisplayLayer::M-空调冷热水供水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698400832, "DisplayLayer::M-HVAC(N)-P-B2C-n$0$M-采暖回水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0.247058823529412,0
+		}
+	}
+	CollectionExclusive: 2175698402368, "DisplayLayer::M-HVAC(N)-P-B2C-n$0$M-采暖供水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0.247058823529412,0
+		}
+	}
+	CollectionExclusive: 2175698399104, "DisplayLayer::M-水管管径", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698396416, "DisplayLayer::管道阀门附件", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698395072, "DisplayLayer::防火分区", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698391424, "DisplayLayer::M-空调冷水供水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698399680, "DisplayLayer::M-ANNO-IDEN", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698396608, "DisplayLayer::M-空调冷水回水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698397184, "DisplayLayer::M-ANNO-TEXT", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698394688, "DisplayLayer::M-基础", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698402752, "DisplayLayer::M-管道配件阀门", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698401792, "DisplayLayer::制冷机", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698398144, "DisplayLayer::M-冷却水供水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698394304, "DisplayLayer::LN3", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698401984, "DisplayLayer::制冷大样", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698398720, "DisplayLayer::M-冷却水回水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698393920, "DisplayLayer::ACS_HFG_FL", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698402944, "DisplayLayer::设备", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698403136, "DisplayLayer::00AC-EQUIP", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,1
+		}
+	}
+	CollectionExclusive: 2175698399296, "DisplayLayer::M-低区给水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698395264, "DisplayLayer::M-空调标注", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698392000, "DisplayLayer::M－水阀", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.647058823529412,0.32156862745098,0.32156862745098
+		}
+	}
+	CollectionExclusive: 2175698399872, "DisplayLayer::M-ACPI-CPNT", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0
+		}
+	}
+	CollectionExclusive: 2175698402176, "DisplayLayer::M-设备编号", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698391616, "DisplayLayer::ACS_COM", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698397568, "DisplayLayer::LAYER1", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698392192, "DisplayLayer::AC-P-VALVE", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698392576, "DisplayLayer::BA-WP", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,1
+		}
+	}
+	CollectionExclusive: 2175698392960, "DisplayLayer::SCH", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698394112, "DisplayLayer::AC-TXT", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,0
+		}
+	}
+	CollectionExclusive: 2175698393152, "DisplayLayer::AC-EQUIP", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0,1
+		}
+	}
+	CollectionExclusive: 2175698397760, "DisplayLayer::00AC-P-VA", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0.498039215686275,0
+		}
+	}
+	CollectionExclusive: 2175698400640, "DisplayLayer::00AC-T-PIPE", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698398336, "DisplayLayer::00AC-P-WS", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,0.498039215686275
+		}
+	}
+	CollectionExclusive: 2175698398528, "DisplayLayer::00AC-T-EQUIP", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698399488, "DisplayLayer::建筑分割线", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.729411764705882,0.729411764705882,0.729411764705882
+		}
+	}
+	CollectionExclusive: 2175698393344, "DisplayLayer::C_0", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698393728, "DisplayLayer::M-空调热水回水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698394496, "DisplayLayer::M-空调热水供水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.247058823529412,1
+		}
+	}
+	CollectionExclusive: 2175698394880, "DisplayLayer::M-ACPI-CPNT-E", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0,0
+		}
+	}
+	CollectionExclusive: 2175698395456, "DisplayLayer::TTLB-LOGO", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,0.16078431372549,0.647058823529412
+		}
+	}
+	CollectionExclusive: 2175698395648, "DisplayLayer::6", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698413696, "DisplayLayer::M-EQPM", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,1
+		}
+	}
+	CollectionExclusive: 2175698415232, "DisplayLayer::M-溢水泄水管", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,0.749019607843137,0
+		}
+	}
+	CollectionExclusive: 2175698407168, "DisplayLayer::A-图名", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.498039215686275,1,0.749019607843137
+		}
+	}
+	CollectionExclusive: 2175698415424, "DisplayLayer::AA-签名", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",1,1,0
+		}
+	}
+	CollectionExclusive: 2175698408896, "DisplayLayer::PUB_TITLE", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0,1,1
+		}
+	}
+	CollectionExclusive: 2175698409664, "DisplayLayer::定压罐", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.0313725490196078,0.0313725490196078,0.533333333333333
+		}
+	}
+	CollectionExclusive: 2175698414272, "DisplayLayer::集水器", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.690196078431373,0.101960784313725,0.101960784313725
+		}
+	}
+	CollectionExclusive: 2175698407552, "DisplayLayer::软水器", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.341176470588235,0.882352941176471,0.776470588235294
+			P: "LODBox", "bool", "", "",1
+		}
+	}
+	CollectionExclusive: 2175698407936, "DisplayLayer::空调管道系统", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.576470588235294
+		}
+	}
+	CollectionExclusive: 2175698407744, "DisplayLayer::墙-16", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.72156862745098,0.607843137254902,0.898039215686275
+		}
+	}
+	CollectionExclusive: 2175698413312, "DisplayLayer::房间", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.549019607843137,0.345098039215686,0.882352941176471
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::shuinidimian, Model::RootNode
+	C: "OO",2176418140560,0
+	
+	;AnimLayer::BaseLayer, AnimStack::Take 001
+	C: "OO",2177671116064,2176409741952
+	
+	;Geometry::, Model::shuinidimian
+	C: "OO",2175708656816,2176418140560
+	
+	;Material::shuinidimian, Model::shuinidimian
+	C: "OO",2176424728016,2176418140560
+	
+	;Texture::Map #10, Material::shuinidimian
+	C: "OP",2176424740496,2176424728016, "DiffuseColor"
+	
+	;Video::Map #10, Texture::Map #10
+	C: "OO",2176424742416,2176424740496
+	
+	;SelectionNode::shuinidimian_SelectionNode, SelectionSet::444
+	C: "OO",2176409742160,2175713643104
+	
+	;Model::shuinidimian, SelectionNode::shuinidimian_SelectionNode
+	C: "OO",2176418140560,2176409742160
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,153953860000
+		ReferenceTime: 0,153953860000
+	}
+}
